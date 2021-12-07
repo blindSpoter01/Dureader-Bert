@@ -22,3 +22,5 @@ num_train_epochs = 4
 gradient_accumulation_steps = 8   # 梯度累积
 num_train_optimization_steps = int(test_lines / gradient_accumulation_steps / batch_size) * num_train_epochs
 log_step = int(test_lines / batch_size / 4)  # 每个epoch验证几次，默认4次
+
+test = 1
